@@ -2,10 +2,15 @@
     "name": "hello_world",
     "version": "1.0.0",
     "description": "Hello world in Node.js",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
+        "start": "node server.js",
+        "docs": "jsdoc -c jsdoc.json",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "hxu",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "jsdoc": "^4.0.5"
+    }
 }
