@@ -1,0 +1,42 @@
+# hello_world Flask Application Dependencies
+# 
+# This file lists all Python package dependencies required to run the
+# hello_world Flask server application.
+#
+# Install dependencies with: pip install -r requirements.txt
+#
+# Author: hxu
+# Version: 1.0.0
+# License: MIT
+
+# =============================================================================
+# Core Dependencies
+# =============================================================================
+
+# Flask - Lightweight WSGI web application framework
+# Used for creating the HTTP server and handling routes
+# https://flask.palletsprojects.com/
+Flask>=2.3.0,<4.0.0
+
+# =============================================================================
+# Production Server (Optional)
+# =============================================================================
+
+# Gunicorn - Python WSGI HTTP Server for UNIX
+# Recommended for production deployments
+# https://gunicorn.org/
+gunicorn>=21.0.0,<23.0.0
+
+# =============================================================================
+# Development Dependencies (Optional)
+# =============================================================================
+
+# pytest - Testing framework
+# Used for running unit tests
+# https://pytest.org/
+pytest>=7.0.0,<9.0.0
+
+# pytest-flask - Flask testing utilities for pytest
+# Provides Flask-specific fixtures and helpers
+# https://pytest-flask.readthedocs.io/
+pytest-flask>=1.2.0,<2.0.0

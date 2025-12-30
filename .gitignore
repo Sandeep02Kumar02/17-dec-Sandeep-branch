@@ -1,0 +1,40 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# pytest cache
+.pytest_cache/
+.cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js (for reference files)
+node_modules/
+docs/
+
+# Environment files
+.env
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
